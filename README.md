@@ -12,3 +12,5 @@ The rest of the characters can be added in the case statement following the same
 
 The 7SEG_driver drives a standard 8 segment display (7 number led's and one dot led).
 This one is quite simple and has been constructed solely by me
+
+The clkdiv is a clockdivider set to an extreme due to you not really being able to see changes on 7 SEG if it is set as a counter. It is configured such that every 0.76 seconds the 7seg display goes up by one.
