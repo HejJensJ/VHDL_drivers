@@ -117,7 +117,7 @@ begin
 			        when '$' => lcd_data <= x"24";
 			        when '%' => lcd_data <= x"25";
 			        when '&' => lcd_data <= x"26";
-			        when '´' => lcd_data <= x"27";
+			        when 'Â´' => lcd_data <= x"27";
 			        when '(' => lcd_data <= x"28";
 			        when ')' => lcd_data <= x"29";
 			        when '*' => lcd_data <= x"2A";
@@ -223,7 +223,7 @@ begin
 			        when '$' => lcd_data <= x"24";
 			        when '%' => lcd_data <= x"25";
 			        when '&' => lcd_data <= x"26";
-			        when '´' => lcd_data <= x"27";
+			        when 'Â´' => lcd_data <= x"27";
 			        when '(' => lcd_data <= x"28";
 			        when ')' => lcd_data <= x"29";
 			        when '*' => lcd_data <= x"2A";
